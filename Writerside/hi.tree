@@ -7,13 +7,12 @@
                  start-page="commands.md">
 
     <toc-element topic="explanation.md">
-        <toc-element topic="list.md">
-        </toc-element>
-        <toc-element topic="オーディオ機能.md"/>
+        <toc-element topic="list.md"/>
+        <toc-element topic="audio.md"/>
+        <toc-element topic="dice.md"/>
     </toc-element>
     <toc-element topic="commands.md">
-        <toc-element topic="cmd_timer.md">
-        </toc-element>
+        <toc-element topic="cmd_timer.md"/>
         <toc-element topic="cmd_finish.md"/>
         <toc-element topic="cmd_finishall.md"/>
         <toc-element topic="cmd_add.md"/>
@@ -56,6 +55,9 @@
             <toc-element topic="cmd_dice-info.md"/>
             <toc-element topic="cmd-dice-bot.md"/>
         </toc-element>
+        <toc-element topic="cmd_roll.md"/>
+        <toc-element topic="cmd_1d100.md"/>
+        <toc-element topic="cmd_s1d100.md"/>
         <toc-element topic="cmd_list.md">
             <toc-element topic="cmd_list-show.md"/>
             <toc-element topic="cmd_list-add-timer.md"/>
