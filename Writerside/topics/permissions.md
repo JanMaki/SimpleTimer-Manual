@@ -1,4 +1,5 @@
 # 動作に必要な権限
+
 <warning>
 SimpleTimerは管理者の権限を与えることを推奨しています。
 </warning>
