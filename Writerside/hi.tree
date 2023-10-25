@@ -56,7 +56,7 @@
             <toc-element topic="cmd_list-add-timer.md"/>
             <toc-element topic="cmd_list-add-dice.md"/>
             <toc-element topic="cmd_list-remove.md"/>
-            <toc-element topic="cmd*?list-clear.md"/>
+            <toc-element topic="cmd_list-clear.md"/>
             <toc-element topic="cmd_list-target.md"/>
             <toc-element topic="cmd_list-sync.md"/>
             <toc-element topic="cmd_list-syncoff.md"/>
