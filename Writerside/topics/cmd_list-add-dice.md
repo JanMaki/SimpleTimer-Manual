@@ -1,4 +1,4 @@
-# /list add_dice
+# /list adddice
 ダイスを一覧に追加・上書きをする。
 ## 構文
 ```

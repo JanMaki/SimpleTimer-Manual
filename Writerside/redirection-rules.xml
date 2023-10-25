@@ -46,4 +46,8 @@
         <description>Created after removal of "How to" from SimpleTimer-マニュアル</description>
         <accepts>How-to.html</accepts>
     </rule>
+    <rule id="57f6f130">
+        <description>Created after removal of "Empty XML Topic" from SimpleTimer-マニュアル</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
 </rules>

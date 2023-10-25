@@ -1,4 +1,4 @@
-# /list add_timer
+# /list addtimer
 "タイマーを一覧に追加・上書きをする。
 ## 構文
 ```
