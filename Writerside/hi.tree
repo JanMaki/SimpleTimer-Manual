@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="SimpleTimer-マニュアル"
+                 start-page="commands.md">
+
+    <toc-element topic="commands.md">
+        <toc-element topic="cmd_timer.md">
+        </toc-element>
+        <toc-element topic="cmd_finish.md"/>
+        <toc-element topic="cmd_finishall.md"/>
+        <toc-element topic="cmd_add.md"/>
+        <toc-element topic="cmd_stop.md"/>
+        <toc-element topic="cmd_restart.md"/>
+        <toc-element topic="cmd_check.md"/>
+        <toc-element topic="cmd_tts.md">
+            <toc-element topic="cmd_tts-timing.md"/>
+            <toc-element topic="cmd_tts-finishmessage.md"/>
+        </toc-element>
+        <toc-element topic="cmd_mention.md">
+            <toc-element topic="cmd_mention-timing.md"/>
+            <toc-element topic="cmd_mention-type.md"/>
+            <toc-element topic="cmd_mention-role.md"/>
+            <toc-element topic="cmd_menton-addrole.md"/>
+            <toc-element topic="cmd_mention-removerole.md"/>
+            <toc-element topic="cmd_mention-vc.md"/>
+            <toc-element topic="cmd_mention-addvc.md"/>
+            <toc-element topic="cmd_mention-removevc.md"/>
+        </toc-element>
+        <toc-element topic="cmd_button.md">
+            <toc-element topic="cmd_button-timer.md"/>
+            <toc-element topic="cmd_button-dice.md"/>
+        </toc-element>
+        <toc-element topic="cmd_audio.md">
+            <toc-element topic="cmd_audio-disconnect.md"/>
+            <toc-element topic="cmd_audio-connect.md"/>
+            <toc-element topic="cmd_audio-change.md"/>
+            <toc-element topic="cmd_audio-list.md"/>
+            <toc-element topic="cmd_audio-listen.md"/>
+        </toc-element>
+        <toc-element topic="cmd_queue.md">
+            <toc-element topic="cmd_queue-show.md"/>
+            <toc-element topic="cmd_queue-add.md"/>
+            <toc-element topic="cmd_queue-remove.md"/>
+            <toc-element topic="cmd-queue-clear.md"/>
+        </toc-element>
+        <toc-element topic="cmd_dice.md">
+            <toc-element topic="cmd_dice-mode.md"/>
+            <toc-element topic="cmd_dice-info.md"/>
+            <toc-element topic="cmd-dice-bot.md"/>
+        </toc-element>
+        <toc-element topic="cmd_list.md">
+            <toc-element topic="cmd_list-show.md"/>
+            <toc-element topic="cmd_list-add-timer.md"/>
+            <toc-element topic="cmd_list-add-dice.md"/>
+            <toc-element topic="cmd_list-remove.md"/>
+            <toc-element topic="cmd*?list-clear.md"/>
+            <toc-element topic="cmd_list-target.md"/>
+            <toc-element topic="cmd_list-sync.md"/>
+            <toc-element topic="cmd_list-syncoff.md"/>
+            <toc-element topic="cmd_list-copy.md"/>
+            <toc-element topic="cmd_list-id.md"/>
+        </toc-element>
+        <toc-element topic="cmd_extension.md"/>
+        <toc-element topic="cmd_help.md"/>
+        <toc-element topic="cmd_lang.md"/>
+        <toc-element topic="cmd_reset.md"/>
+    </toc-element>
+</instance-profile>

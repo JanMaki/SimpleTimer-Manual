@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="15c85663">
+        <description>Created after removal of "Starter" from Help Instance</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="361f7bd1">
+        <description>Created after removal of "タイマーコマンド一覧" from Help Instance</description>
+        <accepts>timer_commands.html</accepts>
+    </rule>
+    <rule id="3c890170">
+        <description>Created after removal of "timer-commands" from Help Instance</description>
+        <accepts>timer-commands.html</accepts>
+    </rule>
+    <rule id="6a99347f">
+        <description>Created after removal of "timer-commands" from Help Instance</description>
+        <accepts>timer-commands.html</accepts>
+    </rule>
+    <rule id="2471b55">
+        <description>Created after removal of "/button" from Help Instance</description>
+        <accepts>button.html</accepts>
+    </rule>
+    <rule id="682c9e77">
+        <description>Created after removal of "/button timer" from SimpleTimer-マニュアル</description>
+        <accepts>cmd_button-timer.html</accepts>
+    </rule>
+    <rule id="73c7e3ca">
+        <description>Created after removal of "/dice" from SimpleTimer-マニュアル</description>
+        <accepts>cmd_dice.html</accepts>
+    </rule>
+    <rule id="30e75873">
+        <description>Created after removal of "/list" from SimpleTimer-マニュアル</description>
+        <accepts>list.html</accepts>
+    </rule>
+    <rule id="19c4162">
+        <description>Created after removal of "dice" from SimpleTimer-マニュアル</description>
+        <accepts>dice.html</accepts>
+    </rule>
+    <rule id="52defa7d">
+        <description>Created after removal of "How to" from SimpleTimer-マニュアル</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+</rules>
