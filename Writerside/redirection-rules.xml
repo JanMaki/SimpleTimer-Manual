@@ -54,4 +54,12 @@
         <description>Created after removal of "ダイス機能" from SimpleTimer-マニュアル</description>
         <accepts>ダイス機能.html</accepts>
     </rule>
+    <rule id="a1e0029">
+        <description>Created after removal of "開発・運用支援のお願い" from SimpleTimer-マニュアル</description>
+        <accepts>開発・運用支援のお願い.html</accepts>
+    </rule>
+    <rule id="6c15d1fc">
+        <description>Created after removal of "サブプロジェクト" from SimpleTimer-マニュアル</description>
+        <accepts>サブプロジェクト.html</accepts>
+    </rule>
 </rules>

@@ -6,6 +6,10 @@
                  name="SimpleTimer-マニュアル"
                  start-page="commands.md">
 
+    <toc-element topic="donate.md"/>
+    <toc-element topic="questions.md">
+    </toc-element>
+    <toc-element topic="permissions.md"/>
     <toc-element topic="explanation.md">
         <toc-element topic="list.md"/>
         <toc-element topic="audio.md"/>
