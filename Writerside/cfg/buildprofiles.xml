@@ -1,0 +1,17 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+        <color-preset>Soft</color-preset>
+        <primary-color>aqua</primary-color>
+        <header-logo>icon.png</header-logo>
+
+    </variables>
+    <build-profile instance="instance_id"/>
+    <footer>
+        <copyright>SimpleTimer 2021-2023</copyright>
+        <social type="twitter" href="https://twitter.com/JanuaryMaki"/>
+        <link href="https://tos.simpletimer.dev">利用規約</link>
+        <link href="https://privacy.simpletimer.dev">プライバシーポリシー</link>
+        <link href="https://github.com/search?q=owner%3AJanMaki+SimpleTimer&amp;type=repositories">GitHub</link>
+    </footer>
+</buildprofiles>

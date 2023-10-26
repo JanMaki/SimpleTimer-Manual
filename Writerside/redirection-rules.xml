@@ -62,4 +62,8 @@
         <description>Created after removal of "サブプロジェクト" from SimpleTimer-マニュアル</description>
         <accepts>サブプロジェクト.html</accepts>
     </rule>
+    <rule id="5931850e">
+        <description><![CDATA[Created after removal of "&" from SimpleTimer-マニュアル]]></description>
+        <accepts><![CDATA[&.html]]></accepts>
+    </rule>
 </rules>
