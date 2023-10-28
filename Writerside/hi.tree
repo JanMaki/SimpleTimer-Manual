@@ -4,9 +4,9 @@
 
 <instance-profile id="hi"
                  name="SimpleTimer-マニュアル"
-                 start-page="index.md">
+                 start-page="root.md">
 
-    <toc-element topic="index.md"/>
+    <toc-element topic="root.md"/>
     <toc-element topic="donate.md"/>
     <toc-element topic="questions.md">
     </toc-element>
