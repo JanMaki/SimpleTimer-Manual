@@ -19,6 +19,6 @@ SimpleTimerは多くの年代の方に使われています。そのため、支
 </p>
 <p>現在あるリターンは以下の通りです。</p>
 <list>
-<li><a href="https://forms.gle/GusmpuFrPBSQHBZcA">オーディオ機能の音源リクエスト</a></li>
+<li><a href="https://forms.gle/cQnT9PgrNrb7txET6">オーディオ機能の音源リクエスト</a></li>
 </list>
 </procedure>
