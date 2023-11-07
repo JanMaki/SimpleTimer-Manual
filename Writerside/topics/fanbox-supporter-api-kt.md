@@ -17,7 +17,7 @@ JanMaki/FanboxSupporterApi-Kt
 repositories {
     maven { url 'https://jitpack.io' }
 }
-<br/>
+　
 dependencies {
     implementation 'com.github.JanMaki:FanboxSupporterApi-Kt:VERSION'
 }
@@ -26,20 +26,18 @@ dependencies {
 
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
-<![CDATA[
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-<repositories>
-<br/>
-<dependency>
-    <groupId>com.github.JanMaki</groupId>
-    <artifactId>FanboxSupporterApi-Kt</artifactId>
-    <version>VERSION</version>
-</dependency>
-]]>
+&lt;repositories&gt;
+    &lt;repository&gt;
+        &lt;id>jitpack.io&lt;/id&gt;
+        &lt;url>https://jitpack.io&lt;/url&gt;
+    &lt;/repository&gt;
+&lt;repositories&gt;
+　
+&lt;dependency&gt;
+    &lt;groupId>com.github.JanMaki&lt;/groupId&gt;
+    &lt;artifactId>FanboxSupporterApi-Kt&lt;/artifactId&gt;
+    &lt;version>VERSION&lt;/version&gt;
+&lt;/dependency&gt;
 </code-block>
 </tab>
 
