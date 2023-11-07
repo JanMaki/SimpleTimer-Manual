@@ -17,7 +17,7 @@ JanMaki/bcdice-kt
 repositories {
     maven { url 'https://jitpack.io' }
 }
-　
+<br/>
 dependencies {
     implementation 'dev.simpletimer:bcdice-kt:VERSION'
 }
@@ -26,18 +26,20 @@ dependencies {
 
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
-&lt;repositories&gt;
-    &lt;repository&gt;
-        &lt;id>jitpack.io&lt;/id&gt;
-        &lt;url>https://jitpack.io&lt;/url&gt;
-    &lt;/repository&gt;
-&lt;repositories&gt;
-　
-&lt;dependency&gt;
-    &lt;groupId>dev.simpletimer&lt;/groupId&gt;
-    &lt;artifactId>bcdice-kt&lt;/artifactId&gt;
-    &lt;version>VERSION&lt;/version&gt;
-&lt;/dependency&gt;
+<![CDATA[
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+<repositories>
+<br/>
+<dependency>
+    <groupId>dev.simpletimer</groupId>
+    <artifactId>bcdice-kt</artifactId>
+    <version>VERSION</version>
+</dependency>
+]]>
 </code-block>
 </tab>
 
