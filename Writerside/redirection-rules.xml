@@ -66,4 +66,8 @@
         <description><![CDATA[Created after removal of "&" from SimpleTimer-マニュアル]]></description>
         <accepts><![CDATA[&.html]]></accepts>
     </rule>
+    <rule id="154ba036">
+        <description>Created after removal of "FanboxSupporterApi-Kt" from SimpleTimer-マニュアル</description>
+        <accepts>fafnbox-supporter-api-kt.html</accepts>
+    </rule>
 </rules>

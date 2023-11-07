@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="SimpleTimer-マニュアル"
-                 start-page="root.md">
+                  name="SimpleTimer-マニュアル"
+                  start-page="root.md">
 
     <toc-element topic="root.md"/>
     <toc-element topic="donate.md"/>
@@ -80,5 +80,9 @@
         <toc-element topic="cmd_help.md"/>
         <toc-element topic="cmd_lang.md"/>
         <toc-element topic="cmd_reset.md"/>
+    </toc-element>
+    <toc-element topic="sub-projects.md">
+        <toc-element topic="bcdice-kt.md"/>
+        <toc-element topic="fanbox-supporter-api-kt.md"/>
     </toc-element>
 </instance-profile>
