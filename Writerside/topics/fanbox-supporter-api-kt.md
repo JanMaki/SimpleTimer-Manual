@@ -24,25 +24,6 @@ dependencies {
 </code-block>
 </tab>
 
-<!--
-<tab title="Maven" group-key="maven">
-<code-block lang="xml">
-&lt;repositories&gt;
-    &lt;repository&gt;
-        &lt;id>jitpack.io&lt;/id&gt;
-        &lt;url>https://jitpack.io&lt;/url&gt;
-    &lt;/repository&gt;
-&lt;repositories&gt;
-　
-&lt;dependency&gt;
-    &lt;groupId>com.github.JanMaki&lt;/groupId&gt;
-    &lt;artifactId>FanboxSupporterApi-Kt&lt;/artifactId&gt;
-    &lt;version>VERSION&lt;/version&gt;
-&lt;/dependency&gt;
-</code-block>
-</tab>
--->
-
 </tabs>
 </procedure>
 
