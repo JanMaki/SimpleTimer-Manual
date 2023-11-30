@@ -6,7 +6,7 @@ JanMaki/FanboxSupporterApi-Kt
 : [https://github.com/JanMaki/FanboxSupporterApi-Kt](https://github.com/JanMaki/FanboxSupporterApi-Kt)
 
 
-<procedure title="Gradle">
+<procedure title="Gradle・Maven">
 <a href="https://jitpack.io/#JanMaki/FanboxSupporterApi-Kt">
     <img src="https://jitpack.io/v/JanMaki/FanboxSupporterApi-Kt.svg" alt="Alt text" width="450"/>
 </a>
@@ -24,7 +24,6 @@ dependencies {
 </code-block>
 </tab>
 
-<!--
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
 &lt;repositories&gt;
@@ -41,7 +40,6 @@ dependencies {
 &lt;/dependency&gt;
 </code-block>
 </tab>
--->
 
 </tabs>
 </procedure>

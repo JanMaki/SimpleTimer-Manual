@@ -6,7 +6,7 @@ JanMaki/bcdice-kt
 : [https://bcdice-kt.simpletimer.dev/](https://bcdice-kt.simpletimer.dev/)
 
 
-<procedure title="Gradle">
+<procedure title="Gradle・Maven">
 <a href="https://jitpack.io/#dev.simpletimer/bcdice-kt">
     <img src="https://jitpack.io/v/dev.simpletimer/bcdice-kt.svg" alt="Alt text" width="450"/>
 </a>
@@ -24,7 +24,6 @@ dependencies {
 </code-block>
 </tab>
 
-<!--
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
 &lt;repositories&gt;
@@ -41,7 +40,6 @@ dependencies {
 &lt;/dependency&gt;
 </code-block>
 </tab>
--->
 
 </tabs>
 </procedure>
