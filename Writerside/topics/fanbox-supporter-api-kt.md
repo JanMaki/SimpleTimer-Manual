@@ -14,6 +14,7 @@ JanMaki/FanboxSupporterApi-Kt
 
 <tab title="Gradle" group-key="gradle">
 <code-block lang="gradle">
+<![CDATA[
 repositories {
     maven { url 'https://jitpack.io' }
 }
@@ -21,23 +22,26 @@ repositories {
 dependencies {
     implementation 'com.github.JanMaki:FanboxSupporterApi-Kt:VERSION'
 }
+]]>
 </code-block>
 </tab>
 
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
-&lt;repositories&gt;
-    &lt;repository&gt;
-        &lt;id>jitpack.io&lt;/id&gt;
-        &lt;url>https://jitpack.io&lt;/url&gt;
-    &lt;/repository&gt;
-&lt;repositories&gt;
+<![CDATA[
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+<repositories>
 　
-&lt;dependency&gt;
-    &lt;groupId>com.github.JanMaki&lt;/groupId&gt;
-    &lt;artifactId>FanboxSupporterApi-Kt&lt;/artifactId&gt;
-    &lt;version>VERSION&lt;/version&gt;
-&lt;/dependency&gt;
+<dependency>
+    <groupId>com.github.JanMaki</groupId>
+    <artifactId>FanboxSupporterApi-Kt</artifactId>
+    <version>VERSION</version>
+</dependency>
+]]>
 </code-block>
 </tab>
 
@@ -47,14 +51,17 @@ dependencies {
 <procedure title="Examples">
 <procedure title="現在支援中のユーザーを取得">
 <code-block lang="kotlin">
+<![CDATA[
 //支援者を取得
 val fans = ListFans.getListFans(StatusType.SUPPORTER)
 <br/>
 println(fans.joinToString(", ") { "${it.user.name}:${it.user.userId}" })
+]]>
 </code-block>
 </procedure>
 <procedure title="過去の月ごとの支援者を取得">
 <code-block lang="kotlin">
+<![CDATA[
 //支援金管理の情報を取得する
 val payoutRequest = PayoutRequest.getPayoutRequest()
 <br/>
@@ -72,6 +79,7 @@ payoutRequest?.monthlyMaxPayoutRequestAmountHistory?.forEach {
     <br/>
     println(supporters.joinToString(", ") { supporter -> "${supporter.name}:${supporter.userId}" })
 }
+]]>
 </code-block>
 </procedure>
 </procedure>

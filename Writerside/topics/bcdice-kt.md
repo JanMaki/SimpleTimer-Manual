@@ -14,6 +14,7 @@ JanMaki/bcdice-kt
 
 <tab title="Gradle" group-key="gradle">
 <code-block lang="gradle">
+<![CDATA[
 repositories {
     maven { url 'https://jitpack.io' }
 }
@@ -21,23 +22,26 @@ repositories {
 dependencies {
     implementation 'dev.simpletimer:bcdice-kt:VERSION'
 }
+]]>
 </code-block>
 </tab>
 
 <tab title="Maven" group-key="maven">
 <code-block lang="xml">
-&lt;repositories&gt;
-    &lt;repository&gt;
-        &lt;id>jitpack.io&lt;/id&gt;
-        &lt;url>https://jitpack.io&lt;/url&gt;
-    &lt;/repository&gt;
-&lt;repositories&gt;
+<![CDATA[
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+<repositories>
 　
-&lt;dependency&gt;
-    &lt;groupId>dev.simpletimer&lt;/groupId&gt;
-    &lt;artifactId>bcdice-kt&lt;/artifactId&gt;
-    &lt;version>VERSION&lt;/version&gt;
-&lt;/dependency&gt;
+<dependency>
+    <groupId>dev.simpletimer</groupId>
+    <artifactId>bcdice-kt</artifactId>
+    <version>VERSION</version>
+</dependency>
+]]>
 </code-block>
 </tab>
 
@@ -58,6 +62,7 @@ dependencies {
 <tabs group="example">
 <tab title="Kotlin" group-key="Kotlin">
 <code-block lang="kotlin">
+<![CDATA[
 val bcdice = BCDice()
 <br/>
 //動作に必要なファイルがインストールされているかを確認
@@ -68,10 +73,12 @@ if (!bcdice.wasInstalled()) {
 <br/>
 //ゲームシステム読み込みなどのセットアップを行う
 bcdice.setup()
+]]>
 </code-block>
 </tab>
 <tab title="Java" group-key="java">
 <code-block lang="java">
+<![CDATA[
 BCDice bcdice = new BCDice();
 <br/>
 //動作に必要なファイルがインストールされているかを確認
@@ -82,6 +89,7 @@ if(!bcdice.wasInstalled()){
 <br/>
 //ゲームシステム読み込みなどのセットアップを行う
 bcdice.setup();
+]]>
 </code-block>
 </tab>
 </tabs>
@@ -91,6 +99,7 @@ bcdice.setup();
 <tabs group="example">
 <tab title="Kotlin" group-key="Kotlin">
 <code-block lang="kotlin">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -101,10 +110,12 @@ val gameSystem = bcdice.getGameSystem("Cthulhu7th")
 <br/>
 val result = gameSystem.roll("CC+1")
 println(result.text) //結果のテキスト
+]]>
 </code-block>
 </tab>
 <tab title="Java" group-key="java">
 <code-block lang="java">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -115,6 +126,7 @@ GameSystem gameSystem = bcdice.getGameSystem("Cthulhu7th");
 <br/>
 GameSystem.DiceResult result = gameSystem.roll("CC+1");
 System.out.println(result.getText()); //結果のテキスト
+]]>
 </code-block>
 </tab>
 </tabs>
@@ -124,6 +136,7 @@ System.out.println(result.getText()); //結果のテキスト
 <tabs group="example">
 <tab title="Kotlin" group-key="Kotlin">
 <code-block lang="kotlin">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -143,9 +156,11 @@ val text = """
 <br/>
 val result = bcdice.rollOriginalTable(text)
 println(result.text) //結果のテキスト
+]]>
 </code-block>
 <br/>
 <code-block lang="kotlin">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -167,10 +182,12 @@ val tableData = OriginalTable.TableData(
 <br/>
 val result = bcdice.rollOriginalTable(tableData)
 println(result.text) //結果のテキスト
+]]>
 </code-block>
 </tab>
 <tab title="Java" group-key="java">
 <code-block lang="java">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -190,9 +207,11 @@ String text = """
 <br/>
 Result result = bcdice.rollOriginalTable(text);
 System.out.println(result.getText()); //結果のテキスト
+]]>
 </code-block>
 <br/>
 <code-block lang="java">
+<![CDATA[
 /*
 実行時の下準備をあらかじめ行う
  */
@@ -215,6 +234,7 @@ OriginalTable.TableData tableData = new OriginalTable.TableData(
 //テーブルを作成
 Result result = bcdice.rollOriginalTable(tableData);
 System.out.println(result.getText()); //結果のテキスト
+]]>
 </code-block>
 </tab>
 </tabs>
