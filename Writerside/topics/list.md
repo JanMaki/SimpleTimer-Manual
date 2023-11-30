@@ -1,6 +1,5 @@
 # 一覧機能
 あらかじめタイマー・ダイスの一覧を作成して、プルダウンのメニューからタイマーを選択・実行できるようにする機能です。
-![list_show.png](list_show.png)
 <procedure title="一覧の表示">
     <list type="decimal" start="1">
         <li>
