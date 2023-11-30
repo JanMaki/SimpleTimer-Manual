@@ -70,4 +70,16 @@
         <description>Created after removal of "FanboxSupporterApi-Kt" from SimpleTimer-マニュアル</description>
         <accepts>fafnbox-supporter-api-kt.html</accepts>
     </rule>
+    <rule id="70211812">
+        <description>Created after removal of "Empty MD Topic" from SimpleTimer-マニュアル</description>
+        <accepts>Empty-MD-Topic.html</accepts>
+    </rule>
+    <rule id="1f1a3e38">
+        <description>Created after removal of "Empty XML Topic" from SimpleTimer-マニュアル</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
+    <rule id="7fc97836">
+        <description>Created after removal of "Empty XML Topic" from SimpleTimer-マニュアル</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
 </rules>
