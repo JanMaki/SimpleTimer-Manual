@@ -64,13 +64,13 @@ dependencies {
 <code-block lang="kotlin">
 <![CDATA[
 val bcdice = BCDice()
-<br/>
+
 //動作に必要なファイルがインストールされているかを確認
 if (!bcdice.wasInstalled()) {
     //インストール
     bcdice.install()
 }
-<br/>
+
 //ゲームシステム読み込みなどのセットアップを行う
 bcdice.setup()
 ]]>
@@ -80,13 +80,13 @@ bcdice.setup()
 <code-block lang="java">
 <![CDATA[
 BCDice bcdice = new BCDice();
-<br/>
+
 //動作に必要なファイルがインストールされているかを確認
 if(!bcdice.wasInstalled()){
     //インストール
     bcdice.install();
 }
-<br/>
+
 //ゲームシステム読み込みなどのセットアップを行う
 bcdice.setup();
 ]]>
@@ -103,11 +103,11 @@ bcdice.setup();
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //ゲームシステムを取得
 val gameSystem = bcdice.getGameSystem("Cthulhu7th")
-<br/>
+
 val result = gameSystem.roll("CC+1")
 println(result.text) //結果のテキスト
 ]]>
@@ -119,11 +119,11 @@ println(result.text) //結果のテキスト
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //ゲームシステムを取得
 GameSystem gameSystem = bcdice.getGameSystem("Cthulhu7th");
-<br/>
+
 GameSystem.DiceResult result = gameSystem.roll("CC+1");
 System.out.println(result.getText()); //結果のテキスト
 ]]>
@@ -140,8 +140,8 @@ System.out.println(result.getText()); //結果のテキスト
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //テーブルのデータをテキストで作成
 val text = """
     飲み物表
@@ -153,7 +153,7 @@ val text = """
     5:オレンジジュース
     6:選ばれし者の知的飲料
 """.trimIndent()
-<br/>
+
 val result = bcdice.rollOriginalTable(text)
 println(result.text) //結果のテキスト
 ]]>
@@ -164,8 +164,8 @@ println(result.text) //結果のテキスト
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //テーブルのデータをTableDataとして作成
 val tableData = OriginalTable.TableData(
     "飲み物表",
@@ -179,7 +179,7 @@ val tableData = OriginalTable.TableData(
         6 to "選ばれし者の知的飲料"
     )
 )
-<br/>
+
 val result = bcdice.rollOriginalTable(tableData)
 println(result.text) //結果のテキスト
 ]]>
@@ -191,8 +191,8 @@ println(result.text) //結果のテキスト
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //テーブルのデータをテキストで作成
 String text = """
     飲み物表
@@ -204,7 +204,7 @@ String text = """
     5:オレンジジュース
     6:選ばれし者の知的飲料
 """;
-<br/>
+
 Result result = bcdice.rollOriginalTable(text);
 System.out.println(result.getText()); //結果のテキスト
 ]]>
@@ -215,8 +215,8 @@ System.out.println(result.getText()); //結果のテキスト
 /*
 実行時の下準備をあらかじめ行う
  */
-<br/>
-<br/>
+
+
 //テーブルのデータをTableDataとして作成
 OriginalTable.TableData tableData = new OriginalTable.TableData(
     "飲み物表",
@@ -230,7 +230,7 @@ OriginalTable.TableData tableData = new OriginalTable.TableData(
         6, "選ばれし者の知的飲料"
     )
 );
-<br/>
+
 //テーブルを作成
 Result result = bcdice.rollOriginalTable(tableData);
 System.out.println(result.getText()); //結果のテキスト

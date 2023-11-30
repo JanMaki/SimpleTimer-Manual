@@ -54,7 +54,7 @@ dependencies {
 <![CDATA[
 //支援者を取得
 val fans = ListFans.getListFans(StatusType.SUPPORTER)
-<br/>
+
 println(fans.joinToString(", ") { "${it.user.name}:${it.user.userId}" })
 ]]>
 </code-block>
@@ -64,19 +64,19 @@ println(fans.joinToString(", ") { "${it.user.name}:${it.user.userId}" })
 <![CDATA[
 //支援金管理の情報を取得する
 val payoutRequest = PayoutRequest.getPayoutRequest()
-<br/>
+
 //各月の情報を取得
 payoutRequest?.monthlyMaxPayoutRequestAmountHistory?.forEach {
     //"年-月"の文字列を取得
     val month = it.targetMonth.convertTo(FanboxDate.FormatType.MONTH)
-    <br/>
+
     println(month)
-    <br/>
+
     //月のデータの詳細を取得
     val monthlyData = Monthly.getMonthly(it.targetMonth) ?: return@forEach
     //支援者の一覧を取得
     val supporters = monthlyData.supportTransactions.map { monthly -> monthly.supporter }
-    <br/>
+
     println(supporters.joinToString(", ") { supporter -> "${supporter.name}:${supporter.userId}" })
 }
 ]]>
