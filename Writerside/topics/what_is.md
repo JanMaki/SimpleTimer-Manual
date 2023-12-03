@@ -16,7 +16,7 @@ Discord上で動くタイマーBot
 <procedure title="注意点">
 <list>
 <li>午前７時にBotが再起動されるため、タイマーが中断されます。</li>
-<li>バグや不明点、要望などがあった場合は<a href="https://twitter.com/JanuaryMaki)">Twitter</a>か、Discordのコミュニティサーバーへよろしくお願いします。GitHubのissueでは受け付けておりません。</li>
+<li>バグや不明点、要望などがあった場合は<a href="https://twitter.com/JanuaryMaki">Twitter</a>か、Discordのコミュニティサーバーへよろしくお願いします。GitHubのissueでは受け付けておりません。</li>
 </list>
 </procedure>
 

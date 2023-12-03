@@ -4,7 +4,7 @@ SimpleTimerの開発と運用には少なからず費用が発生しています
 Botの機能はほぼ全て無料で公開されており、これを維持するためFANBOXにて支援を受け付けています。
 
 SimpleTimer | pixivFANBBOX
-: [https://simpletimer.fanbox.cc/posts/3128883](https://simpletimer.fanbox.cc/posts/3128883)
+: [https://simpletimer.fanbox.cc/](https://simpletimer.fanbox.cc/)
 
 <procedure title="支援の使用用途">
 <p>
